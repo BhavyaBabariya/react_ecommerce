@@ -16,7 +16,7 @@ const Navigation = ()=>{
                                 <span className="text">ALL CATEGORIES</span>
                                 <span className='icon2 ml-6'><FaAngleDown /></span>
                             </Button>
-                            <div className="sidebarNav">
+                            <div className="sidebarNav border">
                                   <ul>
                                     <li><Link to="/"><Button>Man</Button></Link></li>
                                     <li><Link to="/"><Button>Women</Button></Link></li>
