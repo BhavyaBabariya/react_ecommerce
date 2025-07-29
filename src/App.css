@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif !important;
+  font-size: 14px !important;
+}
+::-webkit-scrollbar{width: 8px;height: 8px;}
+::-webkit-scrollbar-thumb{background: #ccc;}
+::-webkit-scrollbar-track{background: transparent;}
+.bg-blue{background: #233a95;}
+@media (min-width:1300px) {
+  .container .container-lg .container-md .container-sm .container-xl{
+    max-width: 1200px;
+  }
+}
+.headerWrapper{border-bottom: 1px solid rgba(0,0,0,0.1);}
+.headerWrapper .top-strip{
+  padding: 8px 0;
+}
+.headerWrapper .top-strip p{
+  color:#fff;
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 310px;
+}
+.headerWrapper .header{
+  width: 100%;
+  height: auto;
+  padding: 15px 0px;
+}
+.logoWrapper img{
+  width: 100%;
+}
+.headerWrapper .contryDrop1 .header .part2 .contryDrop{
+  width: 150px;
+  height: 60px;
+  min-width: 150px;
+  color: black;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 7px;
+  padding: 10px 10px;
+}
+.headerWrapper .header .part2 .contryDrop{
+text-align: left !important;
+  justify-content: flex-start !important;
+  border: 1px solid rgba(0,0,0,0.2);
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+.headerWrapper .header .part2 .contryDrop .label{
+  font-size: 12px !important;
+  text-transform: capitalize !important;
+  color: rgba(0,0,0,0.5) !important;
+  line-height: 16px;
+}
+.headerWrapper .header .part2 .contryDrop .name{
+  font-size: 14px !important;
+  text-transform: capitalize !important;
+  color: #233a95 !important;
+  font-weight: 700;
+  line-height: 16px;
+}
+.headerWrapper .header .part2 .contryDrop span.ml-auto svg{
+  opacity: 0.7;
+}
+.headerSearch{
+  position: relative;
+  width: 100% !important;
+  height: 60px;
+  background: #f3f4f7;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(0,0,0,0.1);
+  margin: 0 15px; 
+}
+.location-search{
+  width: 95% !important;
+}
+.down-arrow{
+  margin-left: inherit;
+}
+.headerSearch input{
+  background: transparent !important;
+  outline: none !important;
+  font-size: 16px;
+  color: rgba(0,0,0,0.8);
+  width: 100%;
+  height: 40px;
+  border: 0;
+  padding: 0 20px;
+  
+}
+.headerSearch Button{
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  z-index: 100;
+  min-width: 40px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: black;
+}
+.headerSearch Button svg{
+  font-size: 30px;
+}
+.down-arrow{
+  margin-left: auto;
+}
+.part3 .circle{
+  align-items: center;
+  justify-content: center;
+  min-width: 40px !important;
+  height: 40px !important;
+  width: 40px !important;
+  border-radius: 50% !important;
+  border: 1px solid rgba(0,0,0,0.1) !important;
+  color: #000 !important;
+  margin: 0 12px;
+}
+.part3 .circle svg{
+  font-size: 25px;
+}
+.cartTab .price{
+  font-size: 18px;
+  color: rgba(0,0,0,0.8);
+  font-weight: 700;
+}
+
+.locationModel .MuiPaper-elevation{padding: 18px;}
+.cartTab Button{
+  background: #fff1ee;
+}
+.cartTab Button svg{
+  color:#ea2b0f;
+}
+.cartTab .count{
+  position: absolute;
+  top: -4px;
+  right: 13px;
+  background: #ea2b0f;
+  border-radius: 50%;
+  color: #fff;
+ width: 15px;
+ height: 15px;
+}
+nav .allCatTab{
+  background: #2bbef9;
+  padding: 8px 30px;
+  border-radius: 30px;
+}
+nav .allCatTab *{
+  color: #fff;
+}
+nav .allCatTab:hover{
+  background: #2bbef9;
+}
+nav .allCatTab .text{
+  font-weight: 600;
+}
+nav .allCatTab .icon1 svg{font-size: 20px; margin-right: 6px;}
+nav .allCatTab .icon2 svg{font-size: 15px;margin-left: 6px;}
+nav .navPart1 .catWrapper{position: relative;}
+nav .navPart1 .catWrapper .sidebarNav{width: 100%; height: 400px; background: #fff; position: absolute; top:100%; left: 0px;}
+nav .navPart1 .catWrapper .sidebarNav li{width: 100%;}
+nav .navPart2 ul{margin-bottom: 0px; margin-left: auto;}
+nav .navPart2 ul li a button{font-size: 16px;  font-family: 'Dosis', sans-serif !important; font-weight: 500; text-decoration: none;color:rgba(0,0,0,0.8);text-transform: uppercase; display: flex; align-items: center;padding: 10px 18px; transition: all 0.2s ease-in-out;border-radius: 20px;}
+nav .navPart2 ul li {padding-bottom: 20px;}
+nav .navPart2 ul li a:hover {
+    background: #f0faff;
+    color: #2bbef9;
+}
+nav .navPart2 ul li a{text-decoration: none;}
+nav .navPart2 ul li a .submenu a{
+  border-radius: 0;
+  text-transform: capitalize;
+}
+
+.locationModel .countryList{margin-bottom: 0px;}
+.locationModel .countryList li{width: 100%; list-style: none;max-height: 400px; overflow-y: scroll; overflow-x: hidden;}
+.locationModel .countryList button{width: 100%;text-transform: capitalize;color: #000; justify-content: flex-start; padding: 10px 15px;}
+.locationModel .countryList button.active{
+  background: #e2e2e2;
+}
+.locationModel .close{
+  font-size: 35px;
+  color: #000;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+nav .navPart2 ul li{position: relative;}
+nav .navPart2 ul li .submenu{position: absolute; top: 150%; left:0px; min-width: 200px; opacity: 0; visibility: hidden; transition: all 0.2s ease-in-out; background: #fff;}
+nav .navPart2 ul li .submenu a{display: block; width: 100%; text-transform: capitalize;}
+nav .navPart2 ul li .submenu a button{display: block; width: 100%; text-transform: capitalize; justify-content: flex-start !important;} 
+nav .navPart2 ul li .submenu a button:hover{background: #f1f1f1;}
+nav .navPart2 ul li:hover .submenu{opacity: 1;visibility: inherit;top: 100%;}
