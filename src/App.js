@@ -3,6 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './Pages/Home';
 import Header from './Components/Header';
+import Footer from './Components/Footer';
 import { createContext, useEffect, useState } from 'react';
 import axios from 'axios';
 
@@ -29,7 +30,7 @@ function App() {
       }));
 
       setCountryList(formattedCountries);
-      console.log("Fetched countries:", formattedCountries);
+      // console.log("Fetched countries:", formattedCountries);
     } catch (error) {
       console.error("Failed to fetch countries:", error);
     }
@@ -47,6 +48,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
         </Routes>
+        <Footer />
       </MyContext.Provider>
     </BrowserRouter>
   );

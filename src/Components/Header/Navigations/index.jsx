@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { FaAngleDown } from "react-icons/fa6";
 import { IoMdMenu } from "react-icons/io";
 import { Link } from "react-router-dom";
+import { FaAngleRight } from "react-icons/fa6";
 
 const Navigation = ()=>{
     const [isopenSidebarVal,setisOpensidebarVal] = useState(false)
@@ -20,9 +21,28 @@ const Navigation = ()=>{
                             </Button>
                             <div className={`sidebarNav ${isopenSidebarVal ? 'open' : ''}`}>
                                   <ul>
-                                    <li><Link to="/"><Button>Man</Button></Link></li>
-                                    <li><Link to="/"><Button>Women</Button></Link></li>
-                                    <li><Link to="/"><Button>Beauty</Button></Link></li>
+                                    <li><Link to="/"><Button>Man <FaAngleRight className='right-angle'/></Button></Link>
+                                        <div className="submenu">
+                                            <Link to='/'><Button>Clothing</Button></Link>
+                                            <Link to='/'><Button>Footwear</Button></Link>
+                                            <Link to='/'><Button>Wathches</Button></Link>
+                                        </div>
+                                    </li>
+                                    <li><Link to="/"><Button>Women <FaAngleRight className='right-angle'/></Button></Link>
+                                         <div className="submenu">
+                                            <Link to='/'><Button>Clothing</Button></Link>
+                                            <Link to='/'><Button>Footwear</Button></Link>
+                                            <Link to='/'><Button>Wathches</Button></Link>
+                                            <Link to='/'><Button>Kids</Button></Link>
+                                        </div>
+                                    </li>
+                                    <li><Link to="/"><Button>Beauty <FaAngleRight className='right-angle'/></Button></Link>
+                                         <div className="submenu">
+                                            <Link to='/'><Button>Clothing</Button></Link>
+                                            <Link to='/'><Button>Footwear</Button></Link>
+                                            <Link to='/'><Button>Wathches</Button></Link>
+                                        </div>
+                                    </li>
                                     <li><Link to="/"><Button>Watches</Button></Link></li>
                                     <li><Link to="/"><Button>Kids</Button></Link></li>
                                      <li><Link to="/"><Button>Man</Button></Link></li>
