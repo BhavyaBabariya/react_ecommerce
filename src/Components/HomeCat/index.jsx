@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 import apple from "../../assets/images/apple.png";
 
 const HomeCat = () => {
-  const [itemBg, setItemBg] = useState([
+  const [itemBg] = useState([
     "#fffceb",
     "#ecffec",
     "#feefea",
