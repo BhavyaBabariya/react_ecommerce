@@ -223,7 +223,7 @@ nav .navPart2 ul li:hover .submenu{opacity: 1;visibility: inherit;top: 100%;}
 .homebannerSection *{outline: none !important;}
 .homebannerSection .slick-arrow{position: absolute; top: 48%; z-index: 100; display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; background: #fff; border-radius: 100%; font-family: FontAwesome;}
 .homebannerSection .slick-arrow.slick-next{left:9px;}
-.homebannerSection .slick-arrow.slick-prev{left:1453px; top: 48%;}
+.homebannerSection .slick-arrow.slick-prev{left:1305px; top: 48%;}
 .homebannerSection .slick-arrow.slick-next::before{font-family: FontAwesome; content: "\f104"; color: #000;}
 .homebannerSection .slick-arrow.slick-prev::before{font-family: FontAwesome; content: "\f105"; color: #000;}
 .right-angle{
