@@ -99,21 +99,23 @@ const Footer = () => {
                 </div>
 
                 <div className="copyright mt-5 pb-3 pt-3 d-flex">
-                    <p className="mb-0">Copyright 2025 . All rights reserved.</p>
+                    <p className="mb-0">
+                        © {new Date().getFullYear()} . All rights reserved. | By Bhavya
+                    </p>
                     <ul className="list">
                         <li className="list-inline-item">
-                            <Link to="#"><FaFacebookF /></Link>
+                            <Link to="https://facebook.com/bhavya.babariya/"><FaFacebookF /></Link>
                         </li>
                         <li className="list-inline-item">
-                            <Link to="#"><FaTwitter /></Link>
+                            <Link to="https://twitter.com/BBKing_2365"><FaTwitter /></Link>
                         </li>
                         <li className="list-inline-item">
-                            <Link to="#"><FaInstagram /></Link>
+                            <Link to="https://www.instagram.com/bhavya_2365"><FaInstagram /></Link>
                         </li>
                     </ul>
                 </div>
-            </div>
 
+            </div>
         </footer>
     )
 }

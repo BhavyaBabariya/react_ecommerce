@@ -6,6 +6,7 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import { createContext, useEffect, useState } from 'react';
 import axios from 'axios';
+import Listing from './Pages/Listing';
 
 // Create context
 export const MyContext = createContext();
@@ -47,6 +48,7 @@ function App() {
         <Header />
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/cat/:id' element={<Listing />} />
         </Routes>
         <Footer />
       </MyContext.Provider>

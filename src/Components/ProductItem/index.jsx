@@ -5,7 +5,7 @@ import { SlSizeFullscreen } from "react-icons/sl";
 import { FaRegHeart } from "react-icons/fa";
 import ProductModel from "../ProductModel";
 
-const ProductItem = ({ product }) => {
+const ProductItem = ({ product, itemView }) => {
   const [isOpenProductModel, setIsOpenProductModel] = useState(false);
 
   const viewProduct = (id) => {
@@ -15,12 +15,11 @@ const ProductItem = ({ product }) => {
 
   return (
     <>
-      <div className="item productItem">
+      <div className={`item productItem ${itemView}`}>
         <div className="imgWrapper position-relative">
           <img src={product.image} className="w-100" alt={product.title} />
-
           <span className="badge badge-primary position-absolute top-0 start-0 m-2">
-            {product.discount}% 
+            {product.discount}%
           </span>
 
           <div className="actions position-absolute top-0 end-0 m-1 d-flex flex-column gap-1">
